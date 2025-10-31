@@ -1,4 +1,4 @@
-range[A = i32]
+range[A]
 {
   min: A;
   max: A;
