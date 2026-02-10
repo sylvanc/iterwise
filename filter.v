@@ -11,7 +11,7 @@ filter[A]
 
   has_next(self: filter[A]): bool
   {
-    if self.next_item is: nomatch
+    if self.next_item is nomatch
     {
       while self.base.has_next
       {

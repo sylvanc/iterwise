@@ -10,12 +10,12 @@ repeat[A]
 
   has_next(self: repeat[A]): bool
   {
-    (self.count is: none) | (self.count > 0.usize)
+    (self.count is none) | (self.count > 0.usize)
   }
   
   next(self: repeat[A]): A | nomatch
   {
-    if self.count is: none
+    if self.count is none
     {
       self.item
     }

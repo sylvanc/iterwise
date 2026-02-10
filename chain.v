@@ -23,7 +23,7 @@ chain[A]
   {
     let r = self.curr.next;
 
-    if !self.curr.has_next & (self.curr is: self.a)
+    if !self.curr.has_next & (self.curr is self.a)
     {
       self.curr = self.b
     }

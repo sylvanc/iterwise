@@ -6,7 +6,7 @@ take[A]
 
   create(base: iterator[A], count: usize): take[A]
   {
-    new {base = base, count = 0.usize, limit = count}
+    new {base = base, count = 0, limit = count}
   }
 
   has_next(self: take[A]): bool

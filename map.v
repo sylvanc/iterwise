@@ -17,7 +17,7 @@ map[A, B]
   {
     let r = self.base.next;
 
-    if r is: nomatch
+    if r is nomatch
     {
       r
     }
