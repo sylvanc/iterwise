@@ -33,6 +33,10 @@ range[A]
     {
       self.idx > self.max
     }
+    else
+    {
+      false
+    }
   }
 
   next(self: range[A]): A | nomatch
